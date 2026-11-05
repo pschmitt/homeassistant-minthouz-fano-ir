@@ -53,12 +53,19 @@ to match your hardware first.
 
 ## Installation
 
-### HACS (recommended)
+[![Open this integration in Home Assistant Marketplace](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=pschmitt&repository=homeassistant-minthouz-fano-ir&category=integration)
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pschmitt&repository=ha-minthouz-fano-ir&category=integration)
+For Home Assistant 2026.11 and later, use the Marketplace badge to add this
+repository as a custom repository and install the integration.
+
+### Older installations: HACS custom repository
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pschmitt&repository=homeassistant-minthouz-fano-ir&category=integration)
 
 1. Click the badge above, or open HACS → Integrations → ⋮ → Custom repositories
-   and add `https://github.com/pschmitt/ha-minthouz-fano-ir` as an **Integration**.
+   and add
+   `https://github.com/pschmitt/homeassistant-minthouz-fano-ir` as an
+   **Integration**.
 2. Install **Minthouz Fano P12L Fan (IR)**, then restart Home Assistant.
 
 ### Manual
